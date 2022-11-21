@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.playenglish.controllers.GameController">
+   <children>
+      <GridPane fx:id="gridPaneMain" layoutX="113.0" layoutY="73.0" prefHeight="171.0" prefWidth="374.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="188.0" minWidth="10.0" prefWidth="186.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="257.0" minWidth="10.0" prefWidth="186.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="257.0" minWidth="10.0" prefWidth="186.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ImageView fx:id="imagen0" fitHeight="127.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imagen1" fitHeight="127.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" />
+            <ImageView fx:id="imagen2" fitHeight="127.0" fitWidth="122.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" />
+         </children>
+      </GridPane>
+      <Label fx:id="labelNameCategorie" alignment="CENTER" contentDisplay="CENTER" layoutX="224.0" layoutY="306.0" prefHeight="30.0" prefWidth="600.0" text="nameCategorie" textAlignment="CENTER" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelUserName" prefHeight="17.0" prefWidth="148.0" text="user" AnchorPane.rightAnchor="0.0" />
+   </children>
+</AnchorPane>
