@@ -29,6 +29,7 @@
 
 # IntelliJ
 out/
+target/
 
 # Gradle
 .idea/**/gradle.xml
